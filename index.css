@@ -1,0 +1,88 @@
+.card {
+    height: 40%;
+    width: 400px;
+
+    /* margin: 10px; */
+    padding: 10px;
+
+    background-image: linear-gradient(to bottom right, rgb(252, 255, 72), rgb(247, 128, 9));
+}
+
+/* .container-fluid{
+    position:fixed;
+    top: 5px;
+    left: 50px;
+} */
+body {
+
+    background-image: linear-gradient(to bottom right, rgba(135, 220, 230, 0.822), rgba(123, 255, 123, 0.899));
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.card-body {
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px #3b3b3bd1;
+}
+
+.card-title {
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.card-text{
+    border: 1px solid gray;
+    background-color: azure;
+    padding: 15px;
+}
+button {
+    background-color: white;
+
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    border-radius: 2px;
+}
+
+button {
+    border: 2.2px solid #4CAF50;
+}
+
+.delete-btn {
+    border: 2.2px solid #c30909;
+}
+.search-btn{
+    
+    border: 2.2px solid #051fe0;
+}
+button:hover {
+    padding: 6px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c30909;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #051fe0;
+    color: white;
+}
+.noNote{
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, rgb(252, 255, 72), rgb(247, 128, 9));
+}
+.card-text{
+    font-size: 18px;  
+}
